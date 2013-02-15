@@ -1,14 +1,16 @@
 %global packname  biomaRt
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          2.10.0
+Version:          2.14.0
 Release:          1
 Summary:          Interface to BioMart databases (e.g. Ensembl, COSMIC ,Wormbase and Gramene)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/biomaRt_2.14.0.tar.gz
 Requires:         R-methods 
 Requires:         R-XML R-RCurl 
 Requires:         R-annotate 
@@ -46,6 +48,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %doc %{rlibdir}/%{packname}/doc
 %doc %{rlibdir}/%{packname}/html
 %doc %{rlibdir}/%{packname}/DESCRIPTION
+%{rlibdir}/%{packname}/CITATION
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
