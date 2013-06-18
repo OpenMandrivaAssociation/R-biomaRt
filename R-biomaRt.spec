@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          2.14.0
-Release:          1
+Release:          2
 Summary:          Interface to BioMart databases (e.g. Ensembl, COSMIC ,Wormbase and Gramene)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
