@@ -9,7 +9,7 @@ Release:          1
 Summary:          Interface to BioMart databases (e.g. Ensembl, COSMIC ,Wormbase and Gramene)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/biomaRt_2.16.0.tar.gz
 Requires:         R-methods 
 Requires:         R-XML R-RCurl 
